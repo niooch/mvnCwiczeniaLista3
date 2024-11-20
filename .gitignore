@@ -1,0 +1,23 @@
+#add a gitignore file for a mvn project
+target/
+*.iml
+.idea/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.har
+*.ipr
+*.iws
+*.bak
+*.old
+*.tmp
+*.out
+*.swp
+*~
+.project
+.classpath
+.settings/
+nb-configuration.xml

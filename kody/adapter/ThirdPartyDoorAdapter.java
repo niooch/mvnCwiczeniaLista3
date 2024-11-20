@@ -8,6 +8,7 @@ import eu.jpereira.trainings.designpatterns.structural.adapter.thirdparty.except
 
 
 public class ThirdPartyDoorAdapter extends ThirdPartyDoor implements Door {
+
     @Override
     public void open(String givenCode) throws IncorrectDoorCodeException{
         //sprawdzanie odbywa sie w funkcji unlock w klasie ThirdPartyDoor
